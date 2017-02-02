@@ -1,4 +1,5 @@
 /* ------------------------------------------------------------------------------
+
 	Template Name: Folix
 	Template URI: http://http://www.themeelite.com/folix
 	Description: Full Screen Coming Soon Template
@@ -7,6 +8,7 @@
 	License: GNU General Public License version 3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 	Version: 1.0
+	
 	
 	1.  CSS Reset
 	2.	Document Setup
@@ -144,23 +146,12 @@ header {
 }
 .banner {
 	overflow:hidden;
-	margin:0 auto !important;
-	background:#CACACA;
+	margin: 0 auto !important;
+	background: url("../images/header-image/header-image.jpg") no-repeat center;
+	background-size: cover;
 }
 .bannerText {
-	/*position:absolute;
-	left:0;
-	right:0;
-	top:35%;
-	text-align:center;
-	padding:30px 0 30px;
-	max-width:960px;
-	border:1px solid #fff;*/
-	/*background: rgba(0, 0, 0, 0.3);
- filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b2000000, endColorstr=#b2000000);
-	zoom: 1;*/
-	
-	position:relative ;
+	position:absolute ;
 	left:0;
 	right:0;
 	top:35%;
@@ -530,7 +521,7 @@ header {
 	bottom:0;
 	width:100%;
 	z-index:2;
-	background:url(http://placehold.it/1024x683) no-repeat 50% 50%;
+	background:url(../images/header-image/me-big.jpg) no-repeat 50% 50%;
 	min-height: 100%;
 	min-width: 100%;
 	background-size: cover;
