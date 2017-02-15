@@ -1,14 +1,4 @@
-/* ------------------------------------------------------------------------------
-
-	Template Name: Folix
-	Template URI: http://http://www.themeelite.com/folix
-	Description: Full Screen Coming Soon Template
-	Author: Andy
-	Author URI: http://www.themeelite.com
-	License: GNU General Public License version 3.0
-	License URI: http://www.gnu.org/licenses/gpl-3.0.html
-	Version: 1.0
-	
+/* ------------------------------------------------------------------------------	
 	
 	1.  CSS Reset
 	2.	Document Setup
@@ -91,7 +81,7 @@ h2 {
 	font-weight:400;
 	text-transform:uppercase;
 	margin:0px;
-	border-bottom:#ef7674 6px solid;
+	border-bottom: #666 3px solid;
 	padding-bottom:9px;
 	display:inline-block;
 }
@@ -187,7 +177,7 @@ header {
 	line-height:52px;
 	color:#fff;
 	font-size:14px;
-	background-color:#EF7674;
+	background-color:#00ccff;
 	text-transform:uppercase;
 	padding:0 29px;
 	}
@@ -425,23 +415,23 @@ header {
 	}
 .navbar.navbar-inverse.navbar-static-top a:hover {
 	background:#ffffff;
-	color:#ef7674;
+	color:#00ccff;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus {
 	background:#ffffff;
 	/*color:#c3c8d6;*/
-	color:#ef7674;
+	color:#00ccff;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
 	background:#ffffff;
 	/*color:#c3c8d6;*/
-	color:#ef7674;
+	color:#00ccff;
 	}
 .navbar-inverse .navbar-nav>.active>a:hover {
 	/*background:#1b1f29;*/
 	/*color:#fff;*/
 	background:#ffffff;
-	color:#ef7674;
+	color:#00ccff;
 }
 .hideClass {
 	display:none;
@@ -719,7 +709,7 @@ header {
 	font-weight:bold;
 	}
 .prevY{
-	background-color:#ef7674;
+	background-color:#00ccff;
 	}
 .afterY{
 	background-color:#483c49;

@@ -95,6 +95,7 @@ $(document).scroll(function(){
 			
 			$('.chart').easyPieChart({
 				easing: 'easeOutBounce',
+				barColor: '#00ccff',
 				onStep: function(from, to, percent) {
 					$(this.el).find('.percent').text(Math.round(percent));
 				}
